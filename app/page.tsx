@@ -63,7 +63,7 @@ const htmlContent = `
     <div class="nav-brand">
       <span class="agora">AGORA</span>
       <span class="x">x</span>
-      <span class="iwc">IWC SCHAFFHAUSEN</span>
+      <span class="iwc">3CS</span>
     </div>
     <div class="nav-links">
       <a href="#overview">Overview</a>

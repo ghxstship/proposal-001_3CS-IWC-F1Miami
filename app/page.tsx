@@ -67,10 +67,10 @@ const htmlContent = `
     </div>
     <div class="nav-links">
       <a href="#overview">Overview</a>
-      <a href="#journey">Process</a>
       <a href="#scope">Scope</a>
+      <a href="#journey">Process</a>
       <a href="#investment">Investment</a>
-      <a href="#schedule">Schedule</a>
+      <a href="#schedule">Timeline</a>
       <a href="#terms">Terms</a>
       <a href="#authorize" class="active">Authorize</a>
     </div>
@@ -167,68 +167,6 @@ const htmlContent = `
         <strong>Programming:</strong> Kimi Antonelli conversation, DJ performance, curated cocktails<br>
         <strong>Venue:</strong> 4,947 sq ft with retractable hardwood doors
       </div>
-    </div>
-  </div>
-</section>
-
-<!-- PRODUCTION JOURNEY -->
-<section id="journey" class="sec">
-  <div data-a>
-    <div class="sec-eye"><div class="bar" style="background:var(--mercedes-teal)"></div><span style="color:var(--mercedes-teal)">Your Production Journey</span></div>
-    <h2>Eight Phases. One Seamless Experience.</h2>
-    <p class="sec-desc">
-      Every Agora engagement follows a structured, milestone-gated production lifecycle &mdash; from initial discovery through final project closeout. Each phase builds upon the last, with clearly defined deliverables, approval checkpoints, and quality assurance protocols designed to ensure that the finished environment meets the exacting standards of IWC Schaffhausen and Mercedes-AMG Petronas.
-    </p>
-  </div>
-
-  <div class="journey-grid" data-a>
-    <div class="journey-step" style="border-color:var(--iwc-gold)">
-      <div class="step-num" style="color:var(--iwc-gold)">01</div>
-      <h4>Discovery &amp; Creative Consultation</h4>
-      <p>Strategic alignment on brand vision, venue requirements, audience experience goals, and technical constraints. Site surveys and stakeholder interviews inform the creative brief.</p>
-      <div class="step-date">Completed &mdash; March 2026</div>
-    </div>
-    <div class="journey-step" style="border-color:var(--iwc-gold)">
-      <div class="step-num" style="color:var(--iwc-gold)">02</div>
-      <h4>Concept Design &amp; Visualization</h4>
-      <p>Creative direction development, 3D renderings, spatial layout planning, and material specification. Visual presentations for client review and iterative refinement.</p>
-      <div class="step-date">Completed &mdash; March 2026</div>
-    </div>
-    <div class="journey-step" style="border-color:var(--iwc-gold)">
-      <div class="step-num" style="color:var(--iwc-gold)">03</div>
-      <h4>Engineering &amp; Technical Development</h4>
-      <p>Structural engineering calculations, shop drawings, load-bearing specifications, and venue compliance documentation. All elements engineered for the 903-pound Formula 1 vehicle and outdoor exposure.</p>
-      <div class="step-date">April 11 &ndash; 15</div>
-    </div>
-    <div class="journey-step" style="border-color:var(--iwc-gold)">
-      <div class="step-num" style="color:var(--iwc-gold)">04</div>
-      <h4>Fabrication &amp; Print Production</h4>
-      <p>Custom scenic builds, precision CNC (computer numerical control) milling, millwork assembly, large-format vinyl and SEG (silicone edge graphics) tension-fabric output, G-Floor printing, Sintra fabrication, and multi-stage quality control inspections.</p>
-      <div class="step-date">April 15 &ndash; 25</div>
-    </div>
-    <div class="journey-step" style="border-color:var(--mercedes-teal)">
-      <div class="step-num" style="color:var(--mercedes-teal)">05</div>
-      <h4>Logistics &amp; Pre-Deployment</h4>
-      <p>Precision crating, climate-protected transport from our Bohemia, NY fabrication facility to Miami, and overnight delivery coordination with venue management and building operations.</p>
-      <div class="step-date">April 25 &ndash; 27</div>
-    </div>
-    <div class="journey-step" style="border-color:var(--mercedes-teal)">
-      <div class="step-num" style="color:var(--mercedes-teal)">06</div>
-      <h4>Installation &amp; On-Site Build</h4>
-      <p>Overnight load-in at Paseo Ponti (10 PM &ndash; 6 AM), scenic assembly, leveling, seaming, graphic application, and final scenic finishing. Palm Court build-out for the cocktail evening.</p>
-      <div class="step-date">April 27 &ndash; 29</div>
-    </div>
-    <div class="journey-step" style="border-color:var(--mercedes-teal)">
-      <div class="step-num" style="color:var(--mercedes-teal)">07</div>
-      <h4>Activation &amp; Live Operations</h4>
-      <p>Six consecutive days of vehicle display at Paseo Ponti with daily brand ambassador coverage, plus full technical production support for the VIP cocktail evening at Palm Court.</p>
-      <div class="step-date">April 28 &ndash; May 3</div>
-    </div>
-    <div class="journey-step" style="border-color:var(--mercedes-teal)">
-      <div class="step-num" style="color:var(--mercedes-teal)">08</div>
-      <h4>Strike &amp; Project Closeout</h4>
-      <p>Complete de-installation, asset removal, and full site restoration to original condition at both venues. Post-event reconciliation, final documentation, and project archive.</p>
-      <div class="step-date">May 3 &ndash; 6</div>
     </div>
   </div>
 </section>
@@ -413,6 +351,68 @@ const htmlContent = `
           <div class="gate-unlock" style="color:var(--mercedes-teal)">&rarr; Initiates: Fabrication and print production for all Palm Court scenic elements</div>
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTION JOURNEY -->
+<section id="journey" class="sec">
+  <div data-a>
+    <div class="sec-eye"><div class="bar" style="background:var(--mercedes-teal)"></div><span style="color:var(--mercedes-teal)">Your Production Journey</span></div>
+    <h2>Eight Phases. One Seamless Experience.</h2>
+    <p class="sec-desc">
+      Every Agora engagement follows a structured, milestone-gated production lifecycle &mdash; from initial discovery through final project closeout. Each phase builds upon the last, with clearly defined deliverables, approval checkpoints, and quality assurance protocols designed to ensure that the finished environment meets the exacting standards of IWC Schaffhausen and Mercedes-AMG Petronas.
+    </p>
+  </div>
+
+  <div class="journey-grid" data-a>
+    <div class="journey-step" style="border-color:var(--iwc-gold)">
+      <div class="step-num" style="color:var(--iwc-gold)">01</div>
+      <h4>Discovery &amp; Creative Consultation</h4>
+      <p>Strategic alignment on brand vision, venue requirements, audience experience goals, and technical constraints. Site surveys and stakeholder interviews inform the creative brief.</p>
+      <div class="step-date">Completed &mdash; March 2026</div>
+    </div>
+    <div class="journey-step" style="border-color:var(--iwc-gold)">
+      <div class="step-num" style="color:var(--iwc-gold)">02</div>
+      <h4>Concept Design &amp; Visualization</h4>
+      <p>Creative direction development, 3D renderings, spatial layout planning, and material specification. Visual presentations for client review and iterative refinement.</p>
+      <div class="step-date">Completed &mdash; March 2026</div>
+    </div>
+    <div class="journey-step" style="border-color:var(--iwc-gold)">
+      <div class="step-num" style="color:var(--iwc-gold)">03</div>
+      <h4>Engineering &amp; Technical Development</h4>
+      <p>Structural engineering calculations, shop drawings, load-bearing specifications, and venue compliance documentation. All elements engineered for the 903-pound Formula 1 vehicle and outdoor exposure.</p>
+      <div class="step-date">April 11 &ndash; 15</div>
+    </div>
+    <div class="journey-step" style="border-color:var(--iwc-gold)">
+      <div class="step-num" style="color:var(--iwc-gold)">04</div>
+      <h4>Fabrication &amp; Print Production</h4>
+      <p>Custom scenic builds, precision CNC (computer numerical control) milling, millwork assembly, large-format vinyl and SEG (silicone edge graphics) tension-fabric output, G-Floor printing, Sintra fabrication, and multi-stage quality control inspections.</p>
+      <div class="step-date">April 15 &ndash; 25</div>
+    </div>
+    <div class="journey-step" style="border-color:var(--mercedes-teal)">
+      <div class="step-num" style="color:var(--mercedes-teal)">05</div>
+      <h4>Logistics &amp; Pre-Deployment</h4>
+      <p>Precision crating, climate-protected transport from our Bohemia, NY fabrication facility to Miami, and overnight delivery coordination with venue management and building operations.</p>
+      <div class="step-date">April 25 &ndash; 27</div>
+    </div>
+    <div class="journey-step" style="border-color:var(--mercedes-teal)">
+      <div class="step-num" style="color:var(--mercedes-teal)">06</div>
+      <h4>Installation &amp; On-Site Build</h4>
+      <p>Overnight load-in at Paseo Ponti (10 PM &ndash; 6 AM), scenic assembly, leveling, seaming, graphic application, and final scenic finishing. Palm Court build-out for the cocktail evening.</p>
+      <div class="step-date">April 27 &ndash; 29</div>
+    </div>
+    <div class="journey-step" style="border-color:var(--mercedes-teal)">
+      <div class="step-num" style="color:var(--mercedes-teal)">07</div>
+      <h4>Activation &amp; Live Operations</h4>
+      <p>Six consecutive days of vehicle display at Paseo Ponti with daily brand ambassador coverage, plus full technical production support for the VIP cocktail evening at Palm Court.</p>
+      <div class="step-date">April 28 &ndash; May 3</div>
+    </div>
+    <div class="journey-step" style="border-color:var(--mercedes-teal)">
+      <div class="step-num" style="color:var(--mercedes-teal)">08</div>
+      <h4>Strike &amp; Project Closeout</h4>
+      <p>Complete de-installation, asset removal, and full site restoration to original condition at both venues. Post-event reconciliation, final documentation, and project archive.</p>
+      <div class="step-date">May 3 &ndash; 6</div>
     </div>
   </div>
 </section>

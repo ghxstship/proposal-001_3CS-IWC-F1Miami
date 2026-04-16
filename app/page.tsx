@@ -63,7 +63,7 @@ const htmlContent = `
     <div class="nav-brand">
       <span class="agora">AGORA</span>
       <span class="x">x</span>
-      <span class="iwc">3CS</span>
+      <img src="/3cs-logo.svg" alt="3CS" class="nav-logo" />
     </div>
     <div class="nav-links">
       <a href="#overview">Overview</a>

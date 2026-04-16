@@ -330,8 +330,8 @@ const htmlContent = `
         </div>
 
         <div class="core-item" style="border-color:var(--mercedes-teal)">
-          <div><div class="name">SEG Stage Backdrop (20&prime;W x 10&prime;H)</div>
-          <div class="desc">Custom scenic backdrop with tension-fabric printed graphics and dimensional IWC x Mercedes-AMG Petronas logo element. Positioned on top of the 12&Prime; stage deck for full 10-foot visual height.</div></div>
+          <div><div class="name">SEG Stage Backdrop (20&prime;W x 8&prime;H)</div>
+          <div class="desc">Custom scenic backdrop with tension-fabric printed graphics and dimensional IWC x Mercedes-AMG Petronas logo element. Positioned on top of the 12&Prime; stage deck for 9-foot total visual height.</div></div>
           <div class="price" style="color:var(--mercedes-teal)">$8,000</div>
         </div>
 
@@ -438,7 +438,7 @@ const htmlContent = `
       <tr><td>Strike &amp; De-Installation &mdash; complete removal and site restoration</td><td>$1,500</td></tr>
       <tr class="divider"><td colspan="2">Activation 02 &mdash; F1 Cocktail Evening &bull; Palm Court</td></tr>
       <tr><td>Stage Platform (20&prime; &times; 8&prime; &times; 12&Prime;) &mdash; modular scenic deck, internal framing, black carpet finish</td><td>$9,750</td></tr>
-      <tr><td>SEG Stage Backdrop (20&prime; &times; 10&prime;) &mdash; tension-fabric graphics with dimensional logo element</td><td>$8,000</td></tr>
+      <tr><td>SEG Stage Backdrop (20&prime; &times; 8&prime;) &mdash; tension-fabric graphics with dimensional logo element</td><td>$8,000</td></tr>
       <tr><td>Stage Cladding &mdash; custom printed Sintra panels, full perimeter branding</td><td>$3,850</td></tr>
       <tr><td>Vinyl Branding &mdash; DJ Booth &mdash; die-cut logo graphic, production and application</td><td>$250</td></tr>
       <tr><td>Delivery &amp; Installation &mdash; transport, assembly, positioning, on-site supervision</td><td>$3,500</td></tr>
@@ -796,6 +796,16 @@ const htmlContent = `
   </div>
 </section>
 
+<!-- CTA -->
+<section class="cta-section" data-a>
+  <h2>Next Steps</h2>
+  <div class="cta-row">
+    <a href="#authorize" class="cta-btn cta-primary" onclick="document.getElementById('authorize').scrollIntoView({behavior:'smooth'});return false;">Approve &amp; Execute &rarr;</a>
+    <a href="mailto:mike@agoragraphics.com,michael@agoragraphics.com,julian@agvmiami.com?cc=info@agoravisuals.com&amp;subject=IWC%20F1%20Miami%20%E2%80%94%20Revision%20Request%20%7C%20IWC-F1-MIA-001" class="cta-btn cta-secondary">Request Revisions</a>
+    <a href="https://experienceagora.com" class="cta-btn cta-tertiary" target="_blank" rel="noopener">Explore Our Portfolio</a>
+  </div>
+</section>
+
 <!-- SIGNATURE -->
 <section id="authorize" class="sec" style="padding-top:0">
   <div data-a>
@@ -908,16 +918,6 @@ const htmlContent = `
         </div>
       </div>
     </div>
-  </div>
-</section>
-
-<!-- CTA -->
-<section class="cta-section" data-a>
-  <h2>Next Steps</h2>
-  <div class="cta-row">
-    <a href="#authorize" class="cta-btn cta-primary" onclick="document.getElementById('authorize').scrollIntoView({behavior:'smooth'});return false;">Approve &amp; Execute &rarr;</a>
-    <a href="mailto:mike@agoragraphics.com,michael@agoragraphics.com,julian@agvmiami.com?cc=info@agoravisuals.com&amp;subject=IWC%20F1%20Miami%20%E2%80%94%20Revision%20Request%20%7C%20IWC-F1-MIA-001" class="cta-btn cta-secondary">Request Revisions</a>
-    <a href="https://experienceagora.com" class="cta-btn cta-tertiary" target="_blank" rel="noopener">Explore Our Portfolio</a>
   </div>
 </section>
 
